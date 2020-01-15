@@ -196,6 +196,6 @@ class PugCompiler {
 PugCompiler.prototype.brunchPlugin = true
 PugCompiler.prototype.type = 'template'
 PugCompiler.prototype.pattern = /\.(?:pug|jade)$/
-PugCompiler.prototype.staticTargetExtension = 'html'
+PugCompiler.prototype.staticTargetExtension = 'php'
 
 module.exports = PugCompiler
